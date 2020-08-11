@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "B",
+    "M"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:snowball"
+    },
+    "B": {
+      "item": "bananamod:banana"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "bananamod:banana_milkshake"
+  }
+}
