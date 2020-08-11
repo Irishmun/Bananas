@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "ingredient": {
-    "item": "bananamod:banana"
-  },
-  "result": "bananamod:baked_banana",
-  "experience": 0.3,
-  "cookingtime": 90
-}

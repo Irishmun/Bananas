@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "bananamod:banana"
-  },
-  "result": "bananamod:baked_banana",
-  "experience": 0.3,
-  "cookingtime": 180
-}
