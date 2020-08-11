@@ -4,8 +4,8 @@ import com.afterdark.bananamod.CreativeTab;
 import net.minecraft.item.*;
 import net.minecraft.util.ResourceLocation;
 
+import static com.afterdark.bananamod.BananaMod.MOD_ID;
 import static com.afterdark.bananamod.CustomProperties.ModFoods.*;
-import static com.afterdark.bananamod.util.Reference.MOD_ID;
 
 public class ItemList
 {

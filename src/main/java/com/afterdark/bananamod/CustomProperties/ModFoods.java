@@ -11,7 +11,7 @@ public class ModFoods
     public static final Food BANANA_BUNCH;
     public static final Food BANANA_MILKSHAKE;
 
-    private static final Supplier<EffectInstance> ef = () -> new EffectInstance(Effects.FIRE_RESISTANCE,3);
+    private static final Supplier<EffectInstance> ef = () -> new EffectInstance(Effects.FIRE_RESISTANCE,30);
     static
     {
         BANANA_BUNCH = (new Food.Builder()).hunger(14).saturation(12.8F).build();

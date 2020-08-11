@@ -2,12 +2,6 @@ package com.afterdark.bananamod;
 
 import com.afterdark.bananamod.lists.ItemList;
 import net.minecraft.item.Item;
-import net.minecraft.loot.LootPool;
-import net.minecraft.loot.LootTable;
-import net.minecraft.loot.TableLootEntry;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.event.LootTableLoadEvent;
-import net.minecraftforge.registries.IForgeRegistry.*;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,17 +12,14 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
-import static com.afterdark.bananamod.util.Reference.*;
-
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(MOD_ID)
+@Mod("bananamod")
 public class BananaMod
 {
 
     public static BananaMod instance;
+    public static final String MOD_ID ="bananamod";
     private static Logger logger = LogManager.getLogger(MOD_ID);
-
     public BananaMod()
     {
         instance = this;
